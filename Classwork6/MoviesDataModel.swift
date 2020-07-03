@@ -8,10 +8,12 @@
 
 import Foundation
 
+var selectedMovie : Movie = Movie(movieName: "", movieReleaseDate: 2000, actors: [""], rating: 0.0, pgRating: "PG")
+
 
 
 struct Movie{
-    var movieName: String = ""
+    var movieName: String
     var movieReleaseDate: Int
     var actors: [String]
     var rating: Double

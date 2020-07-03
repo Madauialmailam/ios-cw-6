@@ -181,7 +181,7 @@
                         <outlet property="marvelImg3" destination="KHc-Ja-4bV" id="JQU-Qx-1li"/>
                         <outlet property="marvelImg4" destination="2nT-Py-f7O" id="GLh-bi-Iu0"/>
                         <outlet property="marvelImg5" destination="amL-US-aUz" id="HrN-LX-T6D"/>
-                        <segue destination="bpc-aQ-fQL" kind="show" id="rfC-Fm-9Ld"/>
+                        <segue destination="bpc-aQ-fQL" kind="show" identifier="goToMovieDetail" id="rfC-Fm-9Ld"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -278,21 +278,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="rSm-pC-Cqt"/>
                     <connections>
-                        <outlet property="actor1Name" destination="7uT-h3-cqf" id="ssp-a4-VZu"/>
-                        <outlet property="actor2Name" destination="jqs-QN-d9S" id="cYP-rl-92C"/>
-                        <outlet property="actor3Name" destination="i9w-Gq-SKS" id="D7y-k4-d6x"/>
-                        <outlet property="actorImg1" destination="kAK-vf-7lm" id="PrH-Tx-ZaQ"/>
-                        <outlet property="actorImg2" destination="xsb-AG-8sz" id="0Cy-0v-V4H"/>
-                        <outlet property="actorImg3" destination="MGz-x1-xbg" id="wl6-tQ-fFM"/>
-                        <outlet property="movieImg" destination="eaK-yG-TGx" id="h0n-Em-2v0"/>
-                        <outlet property="movieRated" destination="LFf-Xj-9yP" id="COu-Cd-UXu"/>
-                        <outlet property="movieRating" destination="96x-bh-N6I" id="qhG-t3-tuo"/>
-                        <outlet property="movieReleasDate" destination="o3z-bJ-xaP" id="dna-25-6oe"/>
+                        <outlet property="MovieActor1Name" destination="7uT-h3-cqf" id="dqn-un-Mzu"/>
+                        <outlet property="MovieActor2Name" destination="jqs-QN-d9S" id="et2-Pj-MFa"/>
+                        <outlet property="MovieActor3Name" destination="i9w-Gq-SKS" id="LHR-aX-mNe"/>
+                        <outlet property="MovieActorImg1" destination="kAK-vf-7lm" id="nAT-AQ-Fmf"/>
+                        <outlet property="MovieActorImg2" destination="xsb-AG-8sz" id="zYa-UY-dAK"/>
+                        <outlet property="MovieActorImg3" destination="MGz-x1-xbg" id="1G5-vX-8mP"/>
+                        <outlet property="MovieImg" destination="eaK-yG-TGx" id="k9g-rD-3Wr"/>
+                        <outlet property="MoviePgRate" destination="96x-bh-N6I" id="9vW-uJ-Gyu"/>
+                        <outlet property="MovieRating" destination="o3z-bJ-xaP" id="VLQ-F8-72z"/>
+                        <outlet property="MovieReleaseDate" destination="LFf-Xj-9yP" id="BdJ-jQ-JbF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibb-hD-Ncw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2750.7246376811595" y="128.57142857142856"/>
+            <point key="canvasLocation" x="2736" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rYN-kh-QN6">

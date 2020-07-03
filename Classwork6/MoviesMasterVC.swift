@@ -45,7 +45,10 @@ class MoviesMasterVC:  UIViewController {
     
 
     @IBAction func MarvelBtns(_ sender: UIButton) {
+        print("Marvel",sender.tag)
         selectedMovie = MarvelMovieData[sender.tag]
+       performSegue(withIdentifier: "goToMovieDetail", sender: nil)
+
 }
     
     
@@ -57,14 +60,14 @@ class MoviesMasterVC:  UIViewController {
         DCImg4.setBackgroundImage(UIImage(named: DCImages[4].movieName), for: .normal)
         DCImg5.setBackgroundImage(UIImage(named: DCImages[5].movieName), for: .normal)
         }
-    var selectedMovie : Movie = Movie(movieName: "", movieReleaseDate: 2000, actors: [""], rating: 0.0, pgRating: "PG")
     
 
     
     @IBAction func DCBtns(_ sender: UIButton) {
+        print("DC",sender.tag)
         selectedMovie = DCMovieData[sender.tag]
-        
+      performSegue(withIdentifier: "goToMovieDetail", sender: nil)
     }
-    
+
 }
 
